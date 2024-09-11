@@ -59,6 +59,21 @@ const VideoPlayer = () => {
 
     const styles = StyleSheet.create({
         container: {
-
-        }
+            flex: 1,
+            padding: 16,
+            justifyContent: 'center',
+            alignItems: 'center',
+        },
+        title: {
+            fontSize: 20,
+            marginBottom: 16,
+        },
+        webview: {
+            width: '100%',
+            height: 400,
+            marginBottom: 16,
+        },
+        errorText: {
+            color: 'red',
+        },
     })
