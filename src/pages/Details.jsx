@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, Image, ActivityIndicator, StyleSheet, Dimensions, Linking } from "react-native";
+import { View, Text, Image, ActivityIndicator, StyleSheet, Linking } from "react-native";
 import { WebView } from 'react-native-webview';
 import { FontAwesome } from '@expo/vector-icons';
 
