@@ -59,4 +59,49 @@ const HomeScreen = () => {
     )
 }
 
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      padding: 16,
+      backgroundColor: '#011627',
+    },
+    searchBar: {
+      backgroundColor: '#fff',
+      borderRadius: 8,
+      padding: 10,
+      marginBottom: 16,
+      fontSize: 16,
+      textAlign: 'center',
+    },
+    card: {
+      padding: 16,
+      borderBottomWidth: 1,
+      borderBottomColor: '#022a4a',
+      marginBottom: 10,
+      alignItems: 'center',
+    },
+    title: {
+      color: '#fff',
+      fontWeight: 'bold',
+      fontSize: 18,
+      marginBottom: 15,
+    },
+    poster: {
+      width: 200,
+      height: 300,
+      marginBottom: 20,
+    },
+    rating: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      marginTop: -6,
+      marginBottom: 15,
+    },
+    ratingText: {
+      color: '#fff',
+      fontSize: 15,
+      marginLeft: 8,
+    },
+  });
+
 export default HomeScreen;
