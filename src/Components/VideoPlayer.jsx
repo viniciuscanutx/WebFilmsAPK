@@ -77,3 +77,6 @@ const VideoPlayer = () => {
             color: 'red',
         },
     })
+
+
+export default VideoPlayer;
